@@ -1,3 +1,15 @@
+/* Start of burgermenu*/
+function btnBurgermenu() {
+    let x = document.querySelector(".burgerMenu");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    }
+    else {
+        x.style.display = "block";
+    }
+}
+/* End of burgermenu*/
+
 /* Start of Swipe function*/
 var p1 = document.getElementById('page1');
 var p2 = document.getElementById('page2');

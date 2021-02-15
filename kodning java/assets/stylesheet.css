@@ -5,6 +5,20 @@ header{
     position:absolute;
     background-color:#141969;
     width: 100vw;
+    color:white;
+}
+
+.burgerMenu{
+    list-style: none;
+}
+.overKategori{
+    font-size:20px;
+    font-weight: bold;
+    padding:15px 0 15px 0;
+}
+.underKategori{
+    font-size:14px;
+    font-style: normal;
 }
 .page1{
     position:absolute;

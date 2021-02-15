@@ -12,10 +12,26 @@
 <body>
     <header>
         <nav>
-            <div id="burger"><i class="fas fa-bars"></i></div>
+            <a id="trayMenu" href="javascript:void(0);" class="Navicon" onclick="btnTrayMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+            
+            <ul class="burgerMenu">
+                <li class="overKategori" id="profil">Profil</li>
+                <li class="underKategori">Dine ruter</li>
+                <li class="underKategori">Motionstid</li>
+                <li class="overKategori">Kategorier</li>
+                <li class="underKategori" class="fas fa-user-circle" id="bike"></i>Mountainbike</li>
+                <li class="underKategori" id="familie">Familiehygge</li>
+                <li class="underKategori" id="løb">Motion</li>
+            </ul>
+
             <h1>Udforsk</h1>
-            <div id="search"><i class="fas fa-search"></i></div>
-        </nav>
+            
+            <a id="search" href="javascript:void(0);" class="Navicon" onclick="btnSearch()">
+                <i class="fas fa-search"></i>
+            </a>
+        </nav>      
     </header>
 
     <section class="page1" id="page1" ontouchstart="p1TouchStart(event)" ontouchmove="p1TouchMove(event)" onetouchend="p1TouchEnd(event)">
