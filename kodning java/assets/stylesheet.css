@@ -1,13 +1,17 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+header{
+    position:absolute;
+    background-color:#141969;
+    width: 100vw;
+}
 .page1{
     position:absolute;
     top:0;
     left:0;
     width:100vw;
     height: 100vh;
-    background-color:red;
 }
 .page2{
     display:none;
