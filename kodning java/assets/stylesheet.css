@@ -1,15 +1,71 @@
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+html {
+    padding: 0;
+    margin: 0;
+    max-width: 375px;
+    height: 100%;
 }
+
+body{
+    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 header{
-    position:absolute;
+    position: absolute;
     background-color:#141969;
     width: 100vw;
     color:white;
+    height: 71px;
 }
+
+h1 {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 11px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 25px;
+}
+
+p {
+    font-size: 16px;
+    padding: 0px 25px;
+    color: #fff;
+    font-weight: normal;
+
+}
+
+.map {
+    height: 148px;
+    width: 317px;
+    border: 1px solid black;
+    margin: 0px 25px;
+}
+
+/* Det her er bunden hvor billedet skal være. Har ikke fået det 
+til at virke endnu.
+.bottom {
+    width: 100%;
+    height: 610px;
+    border: 1px solid black;
+    position: relative;
+} */
 
 .burgerMenu{
     list-style: none;
+    position: absolute;
+    right: 100%;
 }
 .overKategori{
     font-size:20px;
@@ -22,17 +78,18 @@ header{
 }
 .page1{
     position:absolute;
-    top:0;
-    left:0;
+    top:71px;
+    left:0%;
     width:100vw;
     height: 100vh;
+    background: linear-gradient(to bottom right, #ee7027ce, #d1326fd2, #ee7027ce);
 }
 .page2{
     display:none;
     position:absolute;
-    top:0;
+    top: 71px;
     left:100%;
     width:100vw;
     height: 100vh;
-    background-color:yellow;
+    background: linear-gradient(to bottom right, #ee7027ce, #d1326fd2, #ee7027ce);
 }
